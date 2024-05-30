@@ -1,0 +1,151 @@
+.setup_container {
+  padding: 10px;
+  float: left;
+  margin: 12px;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.winTrans {
+  width: 1024px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 32px 32px;
+}
+
+#outer {
+  position: relative;
+}
+
+#game {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+#overlay {
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  z-index: 1;
+}
+
+input[type="button"] {
+  -webkit-border-radius: 0px 5px 5px 5px;
+  border-radius: 0px 5px 5px 5px;
+}
+
+#startGame,
+#addPlayer {
+  font-weight: bold;
+}
+
+#players {
+  float: right;
+}
+
+#players_inner {
+  border: 1px dotted #888;
+  border-radius: 13px;
+  padding: 8px;
+  box-shadow: 2px 3px 3px 3px #333;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  white-space: pre;
+  width: 230px;
+  margin-top: 8px;
+}
+
+#players_inner p {
+  font-size: 14px;
+  line-height: 30%;
+}
+
+.wait {
+  color: #aaa;
+}
+
+.select {
+  color: #000;
+}
+
+#setup span {
+  font-size: 14px;
+}
+
+.tile {
+  width: 145px;
+  height: 145px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center !important;
+  vertical-align: middle;
+}
+
+.tile:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing */
+}
+
+.tile>* {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tile p {
+  margin: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.back {
+  border: solid 2px;
+  background: url("/Images/Eyes50.png") center no-repeat,
+    linear-gradient(45deg, #ffad5c, #ff9a5c);
+}
+
+.face {
+  background: linear-gradient(135deg, #eee, #ccc) !important;
+  border: dotted 2px #000;
+}
+
+.guessed {
+  border: solid 2px #777;
+  cursor: default;
+  background: linear-gradient(45deg, #ffad5c, #ff9a5c);
+}
+
+#comm p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 25%;
+}
+
+#do {
+  color: green;
+}
+
+#solution {
+  width: 800px;
+}
+
+#spacer {
+  position: static;
+}
