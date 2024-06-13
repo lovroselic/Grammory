@@ -27,7 +27,7 @@ var SOLUTION = {
 };
 
 var PRG = {
-  VERSION: "1.01",
+  VERSION: "1.01.01",
   NAME: "Grammory",
   INIT: function () {
     console.clear();
@@ -38,7 +38,7 @@ var PRG = {
       " by Mija & Lovro Selic, (c) C00lSch00l 2018 on " +
       navigator.userAgent
     );
-    $("#title").html(PRG.NAME + "<sup>&reg</sup>");
+    $("#title").html(PRG.NAME);
     $("#version").html(
       PRG.NAME +
       " V" +

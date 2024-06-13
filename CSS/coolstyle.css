@@ -5,7 +5,7 @@
 
 body {
     background: linear-gradient(90deg, #ff7f00, #fdb32d, #ff7f00) !important;
-    font-family: "Lora", Sans-serif;
+    font-family: "Lora" !important;
 }
 
 fieldset, legend {
@@ -23,7 +23,28 @@ input[type="button"] {
     border-radius: 0.4rem !important;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    color: black;
+    background-color: #DDD;
+    border-style: solid;
+    border-color: #DDD;
+}
+
+input[type="button"]:focus {
+    color: white;
+    background-color: #971b0d;
+    border-style: solid;
+    border-color: #971b0d;
+}
+
+input[type="text"] {
+    text-align: left;
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 300px;
 }
 
 h1, h2 {
@@ -151,7 +172,6 @@ h1, h2 {
 
 .green-button {
     color: #FFFFFF !important;
-    ;
     background-color: #007F7F !important;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
