@@ -16,13 +16,6 @@ input[type="text"] {
   display: none;
 }
 
-.winTrans {
-  width: 1024px;
-  margin: auto;
-  margin-top: 20px;
-  padding: 20px 32px 32px;
-}
-
 #outer {
   position: relative;
 }
@@ -41,10 +34,10 @@ input[type="text"] {
   z-index: 1;
 }
 
-input[type="button"] {
+/* input[type="button"] {
   -webkit-border-radius: 0px 5px 5px 5px;
   border-radius: 0px 5px 5px 5px;
-}
+} */
 
 #startGame,
 #addPlayer {
@@ -117,8 +110,7 @@ input[type="button"] {
 
 .back {
   border: solid 2px;
-  background: url("/Images/Eyes50.png") center no-repeat,
-    linear-gradient(45deg, #ffad5c, #ff9a5c);
+  background: linear-gradient(45deg, #ffad5c, #ff9a5c);
 }
 
 .face {

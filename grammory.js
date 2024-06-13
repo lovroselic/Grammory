@@ -27,7 +27,7 @@ var SOLUTION = {
 };
 
 var PRG = {
-  VERSION: "1.00",
+  VERSION: "1.01",
   NAME: "Grammory",
   INIT: function () {
     console.clear();
